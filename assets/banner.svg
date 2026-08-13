@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-label="Awesome Synthetic Data Platform banner">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.5" stop-color="#2a1e5c">
+        <animate attributeName="offset" values="0.35;0.75;0.35" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#0b1026"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee">
+        <animate attributeName="offset" values="0.15;0.85;0.15" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bgGrad)"/>
+
+  <circle cx="230" cy="70" r="220" fill="url(#glowCyan)"/>
+  <circle cx="1380" cy="360" r="240" fill="url(#glowViolet)"/>
+  <circle cx="800" cy="420" r="260" fill="url(#glowCyan)" opacity="0.5"/>
+
+  <g stroke="#7c5cbf" stroke-opacity="0.55" stroke-width="2.5" stroke-linecap="round">
+    <line x1="210" y1="85" x2="430" y2="205"/>
+    <line x1="430" y1="205" x2="300" y2="330"/>
+    <line x1="210" y1="85" x2="300" y2="330"/>
+    <line x1="1330" y1="110" x2="1150" y2="235"/>
+    <line x1="1150" y1="235" x2="1280" y2="355"/>
+    <line x1="1330" y1="110" x2="1280" y2="355"/>
+  </g>
+
+  <g fill="#22d3ee">
+    <circle cx="210" cy="85" r="11">
+      <animateTransform attributeName="transform" type="translate" values="0,0;16,-12;0,0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="430" cy="205" r="8">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-14,10;0,0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="330" r="9">
+      <animateTransform attributeName="transform" type="translate" values="0,0;11,13;0,0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g fill="#8b5cf6">
+    <circle cx="1330" cy="110" r="10">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-13,-9;0,0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1150" cy="235" r="8">
+      <animateTransform attributeName="transform" type="translate" values="0,0;11,9;0,0" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1280" cy="355" r="10">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-11,-13;0,0" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="800" y="200" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="1">Awesome Synthetic Data Platform</text>
+
+  <rect x="520" y="228" width="560" height="8" rx="4" fill="url(#accentGrad)"/>
+
+  <text x="800" y="286" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#c7d2fe">SaaS platforms &amp; open-source projects for privacy-preserving synthetic data</text>
+
+  <text x="800" y="340" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="22" fill="#94a3b8">Curated for data scientists &middot; ML engineers &middot; privacy engineers &middot; Updated August 2026</text>
+</svg>
