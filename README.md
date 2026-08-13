@@ -1,183 +1,135 @@
 # Awesome-Synthetic-Data-Platform
 
-## Top Supply Chain Sustainability Platforms
+## Top Synthetic Data Platforms Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Privacy-Preserving Synthetic Data Generation, Tabular & Multimodal Synthesis, and AI Training Data*
+**Last updated: August 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Synthetic Data Platforms**. These tools generate realistic artificial datasets that preserve statistical properties and relationships of real data while eliminating privacy risks — supporting AI/ML training, testing, analytics, and secure data sharing.
 
+**Examples** include Mostly AI, Tonic.ai, Gretel AI, Hazy, Synthea, Datomize, Betterdata, Twinify, MDClone, Mockaroo, Synthetaic, Statice, Syntho, Parallel Domain, YData, Rockfish Data, Rendered.ai, Cognata, and AI Reverie (the category leaders).
 
-A curated list of leading platforms for supply chain sustainability, ESG risk and performance management, supplier due diligence, carbon/Scope 3 accounting, responsible sourcing, and regulatory compliance (CSDDD, LkSG, EUDR, etc.).  
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom model training, differential privacy, and open synthetic data pipelines — ideal for data scientists, privacy engineers, researchers, and developers building transparent, controllable synthetic data solutions.
 
-**Primary focus: open-source software.**
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
+## SaaS/Hosted Platforms
+- **[Mostly AI](https://mostly.ai/)**  
+  Enterprise synthetic data platform specializing in high-fidelity tabular data generation with strong privacy guarantees for regulated industries.
 
-Commercial / hosted platforms are listed separately for completeness. Open-source alternatives and community tools are emphasized throughout.
+- **[Tonic.ai](https://www.tonic.ai/)**  
+  Developer-focused platform for de-identifying production databases and generating realistic test/synthetic data with referential integrity.
 
+- **[Gretel AI](https://gretel.ai/)**  
+  Multi-modal synthetic data platform (tabular, text, time-series) with differential privacy, APIs, and developer-friendly workflows (now part of NVIDIA ecosystem in some contexts).
 
+- **[Hazy](https://hazy.com/)**  
+  Privacy-first synthetic data solution popular in financial services for complex tabular and time-series data with differential privacy.
+
+- **[Synthea](https://synthetichealth.github.io/synthea/)**  
+  Open-source synthetic patient generator focused on realistic medical histories (also widely used commercially and in research).
+
+- **[Datomize](https://www.datomize.com/)**  
+  Synthetic data platform for creating realistic customer and transactional datasets, especially for banking and AI model training.
+
+- **[Betterdata](https://www.betterdata.ai/)**  
+  Privacy-preserving synthetic data solution for AI development, data sharing, and product testing.
+
+- **[Twinify](https://github.com/DPBayes/twinify)**  
+  Privacy-preserving synthetic data generation tool that creates statistical twins of sensitive datasets (open-source core with research focus).
+
+- **[MDClone](https://www.mdclone.com/)**  
+  Healthcare-focused synthetic data platform enabling secure exploration and research on patient data without exposing real records.
+
+- **[Mockaroo](https://www.mockaroo.com/)**  
+  Popular online tool for generating customizable mock/synthetic datasets for testing and development.
+
+- **[Synthetaic](https://www.synthetaic.com/)**  
+  Synthetic data platform specializing in large-scale, high-quality data generation for computer vision and AI training.
+
+- **[Statice](https://www.statice.ai/)**  
+  Privacy-preserving synthetic data generation focused on structured data for analytics and machine learning (now often referenced in awesome lists).
+
+- **[Syntho](https://www.syntho.ai/)**  
+  AI-powered synthetic data platform for generating privacy-safe, high-fidelity datasets for analytics and AI use cases.
+
+- **[Parallel Domain](https://paralleldomain.com/)**  
+  Synthetic data platform for autonomous systems, generating photorealistic 3D scenes, sensor data, and annotated datasets.
+
+- **[YData](https://ydata.ai/)**  
+  Synthetic data and data quality platform supporting tabular, relational, and time-series generation with profiling and evaluation tools.
+
+- **[Rockfish Data](https://www.rockfish.ai/)**  
+  Synthetic data platform focused on privacy-preserving generation and data collaboration.
+
+- **[Rendered.ai](https://rendered.ai/)**  
+  Physics-based synthetic data generation for computer vision, remote sensing, and simulation environments.
+
+- **[Cognata](https://www.cognata.com/)**  
+  Synthetic data and simulation platform for autonomous vehicles and advanced driver-assistance systems.
+
+- **[AI Reverie](https://aireverie.com/)**  
+  Synthetic data generation for computer vision and AI training using simulation and generative techniques.
+
+## Open-Source GitHub Projects
+- **[Synthetic Data Vault (SDV)](https://github.com/sdv-dev/SDV)**  
+  Leading open-source ecosystem for generating synthetic tabular, relational, and time-series data using statistical and deep learning models (CTGAN, TVAE, Gaussian Copula, etc.).
+
+- **[CTGAN](https://github.com/sdv-dev/CTGAN)**  
+  Conditional GAN implementation for high-quality synthetic tabular data generation, part of the SDV project.
+
+- **[Synthcity](https://github.com/vanderschaarlab/synthcity)**  
+  Comprehensive open-source library for synthetic data across modalities (static, time-series, survival) with privacy, fairness, and evaluation tools.
+
+- **[ydata-synthetic](https://github.com/ydataai/ydata-synthetic)**  
+  Python library offering GAN-based synthesizers (CTGAN, TimeGAN, etc.) for tabular and time-series data with Streamlit UI support.
+
+- **[Gretel Synthetics](https://github.com/gretelai/gretel-synthetics)**  
+  Open-source components from Gretel for LSTM/GAN-based synthetic data generation of tabular and sequential data.
+
+- **[Synthea](https://github.com/synthetichealth/synthea)**  
+  Open-source synthetic patient population generator that models realistic medical histories, conditions, and encounters.
+
+- **[Twinify](https://github.com/DPBayes/twinify)**  
+  Privacy-preserving software package for generating synthetic twins of sensitive datasets using differential privacy techniques.
+
+- **[synthetic-data-generator (SDG)](https://github.com/hitsz-ids/synthetic-data-generator)**  
+  Specialized framework for high-quality structured tabular data synthesis with efficient CTGAN implementations and evaluation metrics.
+
+- **[Copulas](https://github.com/sdv-dev/Copulas)**  
+  Library for modeling multivariate distributions using copulas, foundational for many statistical synthetic data approaches.
+
+- **[SmartNoise / OpenDP](https://github.com/opendp/smartnoise-sdk)**  
+  Differentially private open-source tools and synthesizers for generating privacy-preserving synthetic tabular data.
+
+### Additional Strong Open-Source Options
+- **[Faker](https://github.com/joke2k/faker)** and related libraries for rule-based mock data generation.
+- **[DataSynthesizer](https://github.com/DataResponsibly/DataSynthesizer)** for differentially private synthetic data.
+- Community **TimeGAN**, **DoppelGANger**, and **PrivBayes** implementations.
+- Many **LLM-based synthetic data pipelines** (Distilabel, Magpie, etc.) for text and instruction data.
+- Evaluation libraries such as **SDMetrics** for measuring synthetic data quality and privacy.
+
+**Frameworks for building custom systems**: Combine **SDV / CTGAN / Synthcity** for core generation, **SmartNoise** for differential privacy, **SDMetrics** for evaluation, **Pandas + Scikit-learn** for preprocessing, and **Ollama** or local LLMs for generating synthetic text, labels, or complex multimodal datasets.
+
+## How to Contribute
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Synthetic data tools must be validated for statistical fidelity, privacy guarantees (e.g., differential privacy), and downstream utility before production use.
+- Self-hosted open-source solutions require proper evaluation of leakage risks, model bias, and regulatory compliance (GDPR, HIPAA, etc.).
 
 ---
-
-
-
-## SaaS / Hosted Platforms
-
-
-
-| Platform | Description | Key Focus |
-
-|----------|-------------|-----------|
-
-| **[EcoVadis](https://ecovadis.com/)** | Leading provider of business sustainability ratings. Assesses suppliers on Environment, Labor & Human Rights, Ethics, and Sustainable Procurement with industry benchmarking and scorecards. | Supplier ESG ratings & benchmarking |
-
-| **[IntegrityNext](https://www.integritynext.com/)** | Supply chain due diligence and ESG risk platform with automated risk detection, supplier engagement, regulatory coverage (CSDDD and more), and AI-driven supplier intelligence. | Due diligence & regulatory compliance |
-
-| **[Assent](https://www.assent.com/)** | Supply chain sustainability and compliance platform helping manufacturers manage regulatory obligations, product compliance, and ESG data across complex supplier networks. | Product & supply chain compliance |
-
-| **[Worldly](https://worldly.io/)** (formerly Higg) | Sustainability measurement platform widely used in apparel and consumer goods for environmental and social impact assessment across the value chain. | Industry impact measurement (apparel focus) |
-
-| **[Prewave](https://www.prewave.com/)** | AI-powered supply chain risk and sustainability monitoring platform that detects risks from news, social, and other signals across multi-tier supply chains. | Real-time risk intelligence |
-
-| **[Sedex](https://www.sedex.com/)** | Collaborative platform for sharing responsible sourcing data, audits, and sustainability performance among buyers and suppliers. | Responsible sourcing data sharing |
-
-| **[Source Intelligence](https://www.sourceintelligence.com/)** | Supply chain compliance and ESG data management platform focused on regulations (PFAS, REACH, RoHS, EUDR, conflict minerals, etc.) with automation and supplier engagement. | Regulatory compliance & materials data |
-
-| **[Achilles](https://www.achilles.com/)** | Supplier management and sustainability platform providing qualification, risk assessment, and ESG performance insights for procurement teams. | Supplier qualification & risk |
-
-| **[Intertek Inform](https://www.intertek.com/)** | Assurance, testing, and supply chain sustainability solutions including audit programs, risk tools, and compliance support. | Assurance & audit-driven sustainability |
-
-| **[osapiens HUB](https://osapiens.com/)** | Supplier intelligence and compliance platform supporting due diligence (LkSG, EUDR, etc.), onboarding, risk monitoring, and multi-tier transparency. | Supplier intelligence & due diligence |
-
-
-
----
-
-
-
-## Open-Source Softwares
-
-
-
-Fully featured commercial-grade supplier ESG rating networks and multi-tier due diligence platforms are scarce in pure open source. Stronger open-source building blocks exist for carbon accounting (especially Scope 3), emissions reporting, sustainable finance tools, and ERP-integrated sustainability modules.
-
-
-
-### Core Frameworks & Sustainability Platforms
-
-
-
-| Project | Description | License | Notes |
-
-|---------|-------------|---------|-------|
-
-| **[blockchain-carbon-accounting](https://github.com/hyperledger-labs/blockchain-carbon-accounting)** (Hyperledger) | Open-source blockchain applications for climate action and accounting: emissions calculations, carbon trading, validation of climate claims, and supply-chain decarbonization components. | Open source | Climate & carbon accounting on ledger |
-
-| **Carbon accounting toolkits** | Open-source AI agents and MCP toolkits for auditable Scope 1/2/3 carbon accounting, emission factor matching, data quality scoring, and decarbonization workflows. | Apache-2.0 / various | Scope 3 & audit-ready carbon tools |
-
-| **[Sustainability Odoo modules](https://github.com/sustainability-suite/sustainability-odoo)** | Open-source Odoo modules for CO₂e tracking, GHG Protocol-aligned accounting, CSRD-related features, emission factors, and sustainability reporting integrated with ERP. | AGPL-3.0 | ERP-native sustainability |
-
-| **Supply chain sustainability reporting projects** | Python-based open projects for calculating and reporting distribution-network or logistics CO₂ emissions, often with Power BI or dashboard examples. | Various | Practical emissions reporting |
-
-| **OS-Climate & sustainable finance tools** | Open-source initiatives for climate-smart investing, risk management, and ESG data handling (part of broader sustainable finance ecosystems). | Open source | Climate risk & finance |
-
-| **Open supply chain visualization** | Open codebases for visualizing and analyzing supply chains (e.g., Sourcemap-related open components). | Various | Transparency & mapping |
-
-
-
-### Specialized Libraries & Related Tools
-
-
-
-| Project | Description | Focus Area |
-
-|---------|-------------|---------|
-
-| **Emission factor databases & calculators** | Open libraries and datasets for GHG emission factors, activity-based calculations, and Scope 3 category support. | Carbon calculation |
-
-| **Input-output & LCA tools** | Open economic input-output and life-cycle assessment packages for estimating supply-chain impacts. | Impact estimation |
-
-| **ESG data & reporting frameworks** | Open resources and code for aligning with CSRD/ESRS, GHG Protocol, and related disclosure standards. | Regulatory reporting |
-
-| **Risk & news monitoring prototypes** | Open NLP and scraping approaches for basic supplier risk signal detection (far less mature than commercial AI platforms). | Risk signals |
-
-| **ERP & procurement integrations** | Modules and connectors for Odoo, ERPNext, and similar systems to track sustainability attributes of purchases and suppliers. | Operational integration |
-
-| **Dashboarding** | Metabase, Apache Superset, or Grafana on top of emissions and supplier data for internal sustainability scorecards. | Visualization & KPIs |
-
-
-
-### Additional Notable Open-Source Tools
-
-
-
-- **Self-hosted carbon accounting** — Combine open Scope 1/2/3 engines with internal activity data for auditable inventories.
-
-- **ERP sustainability extensions** — Use Odoo sustainability modules or similar ERPNext customizations for operational CO₂ tracking.
-
-- **Blockchain pilots** — Experiment with Hyperledger-based carbon accounting and tokenized claims for transparency projects.
-
-- **Reporting pipelines** — Python + open BI stacks for logistics, procurement, and product-level emissions reports.
-
-- **Data standards & taxonomies** — Open alignment with GHG Protocol, product category rules, and emerging digital product passport concepts.
-
-- **Hybrid approaches** — Many organizations use commercial platforms (EcoVadis, IntegrityNext, etc.) for supplier ratings and due diligence while running open-source tools for internal carbon accounting and custom reporting.
-
-
-
-**Note:** Commercial platforms dominate supplier ESG ratings, multi-tier due diligence, regulatory content libraries, audit networks, and real-time risk intelligence because these require large supplier networks, proprietary data, and continuous regulatory updates. Open-source strength lies in carbon accounting, emissions calculation engines, ERP-integrated sustainability modules, and transparent reporting pipelines that organizations fully control.
-
-
-
----
-
-
-
-## Quick Start Recommendations
-
-
-
-| Goal | Recommended Starting Point |
-
-|------|---------------------------|
-
-| Open-source carbon / climate accounting | **blockchain-carbon-accounting** or dedicated Scope 1/2/3 toolkits |
-
-| ERP-integrated CO₂ & sustainability | **Sustainability Odoo modules** |
-
-| Practical logistics emissions reporting | Community Python supply-chain sustainability projects |
-
-| Supplier ESG ratings & benchmarking | **EcoVadis** |
-
-| Supply chain due diligence & CSDDD | **IntegrityNext** or **osapiens HUB** |
-
-| Product & regulatory compliance | **Assent** or **Source Intelligence** |
-
-| Real-time multi-tier risk signals | **Prewave** |
-
-| Responsible sourcing data sharing | **Sedex** |
-
-| Apparel / consumer goods impact | **Worldly** |
-
-| Supplier qualification & risk | **Achilles** |
-
-
-
----
-
-
-
-## Contributing
-
-
-
-Contributions, corrections, and new open-source projects are welcome.  
-
-Please open an issue or pull request.
-
-
-
----
-
-
-
-**Last updated:** August 2026  
-
-Emphasizing open-source tools while documenting the major commercial platforms for context. Fully featured open-source supplier ESG rating and due-diligence networks remain limited; the strongest open options focus on carbon accounting, Scope 3 calculation, ERP sustainability modules, and transparent reporting pipelines. Commercial platforms lead in network-scale supplier ratings, regulatory coverage, and risk intelligence.
+**Made for data scientists, privacy engineers, ML engineers, researchers, and organizations seeking safer data practices.**
+Let's make synthetic data more open, high-quality, and privacy-preserving.
